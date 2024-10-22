@@ -1,0 +1,13 @@
+[tool.poetry]
+version = "0.1.0"
+readme = "readme.md"
+name = "scikit-modknn"
+authors = ["elamribadrayour <badrayour.elamri@protonmail.com>"]
+description = "A Python package for k-nearest neighbors with customizable distance metric"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.mypy]
+ignore_missing_imports = true
